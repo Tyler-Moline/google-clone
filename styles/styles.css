@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #212123;
+  font-family: "Instrument Sans", sans-serif;
+}
+body .page a {
+  color: white;
+  text-decoration: none;
+}
+body .page a:hover {
+  text-decoration: underline;
+}
+body .page header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px;
+  font-size: 15px;
+}
+body .page header .header-left {
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #aaaaaa;
+}
+body .page header .header-right {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .page .main-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .page .main-content-wrapper img {
+  width: 450px;
+}
+body .page .main-content-wrapper .search-bar {
+  margin-top: 30px;
+}
+body .page .main-content-wrapper .search-bar input {
+  width: 560px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px #5f6368 solid;
+}
+body .page .main-content-wrapper .search-bar .over-search-bar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -30px 20px 0px 20px;
+}
+body .page .main-content-wrapper .search-bar .over-search-bar .magnify-wrapper i {
+  color: white;
+}
+body .page .main-content-wrapper .search-bar .over-search-bar .right-wrapper i {
+  color: white;
+}
+body .page .main-content-wrapper .buttons-wrapper {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+body .page .main-content-wrapper .buttons-wrapper button {
+  height: 38px;
+  border-radius: 4px;
+  background-color: #303134;
+  border: none;
+  color: white;
+  padding: 0px 20px;
+}
+body .page .main-content-wrapper .buttons-wrapper button:hover {
+  border: solid 0.5px #aaaaaa;
+}
+body .page footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #171717;
+  bottom: 0;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+}
+body .page footer .footer-mid {
+  margin-right: 140px;
+  padding: 15px;
+}
+body .page footer .footer-left {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+body .page footer .footer-right {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}/*# sourceMappingURL=styles.css.map */
